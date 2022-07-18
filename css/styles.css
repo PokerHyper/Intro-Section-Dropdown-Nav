@@ -51,7 +51,7 @@ img{
 
 .content-div h1{
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 5rem;
     padding: 2rem 1rem 2rem 0;
     color: hsl(0, 0%, 8%);
 }
@@ -69,7 +69,7 @@ img{
 }
 
 .client-logo{
-    padding-right: 1rem 1rem 1rem 0;
+    padding: 1rem 1rem 1rem 0;
 }
 
 .img-div{
