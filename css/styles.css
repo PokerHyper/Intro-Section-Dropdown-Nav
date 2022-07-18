@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Epilogue",sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    height: calc(100vh - 1px);
+}
+
+img{
+    width: 100%;
+}
+
+#navigation{
+    margin: 0.5rem;
+    /* padding: 0.3rem; */
+}
+
+.logo-main{
+    text-align: center;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.list-body{
+    padding-left: 2rem;
+}
+
+.list-body li{
+    padding: 0.5rem;
+}
+
+#main-content{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    margin: 5rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.content-div{
+    padding: 3rem;
+    padding-top: 0;
+}
+
+.content-div h1{
+    font-weight: 700;
+    font-size: 5rem;
+    padding: 2rem 1rem 2rem 0;
+    color: hsl(0, 0%, 8%);
+}
+
+.content-div p{
+    font-size: 1.125rem;
+    color: hsl(0, 0%, 41%);
+    padding-right: 5rem;
+}
+
+.content-div button{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+
+}
+
+.client-logo{
+    padding-right: 1rem 1rem 1rem 0;
+}
+
+.img-div{
+    padding: 6.5rem;
+    padding-top: 0;
+}
+
+.mobile-div{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #main-content{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .mobile-div{
+        display: block;
+    }
+    .content-div{
+        text-align: center;
+    }
+    .content-div h1{
+        font-size: 4rem;
+    }
+    .content-div br{
+        display: none;
+    }
+    .content-div p{
+        padding: 0;
+    }
+    .img-div{
+        display: none;
+    }
+}
+
+/* Hover States */
+
+a:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+
+.learn-button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
